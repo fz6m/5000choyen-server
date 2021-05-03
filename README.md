@@ -24,7 +24,7 @@ Language: 简体中文 | [English](./README-en.md) | [日本語](./README-jp.md)
 
 之后打开 `http://localhost:4000/api/v1/gen?top=上の文字&bottom=下の文字` 即可得到图片：
 
-<img src='https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe-2021/img/20210503205609.jpg' width='100%' />
+<img src='https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe-2021/img/20210503205609.jpg' width='80%' />
 
 ### 请求参数
 

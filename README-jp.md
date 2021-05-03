@@ -20,7 +20,7 @@ Language: [简体中文](./README.md) | [English](./README-en.md) | 日本語
 
 後で `http://localhost:4000/api/v1/gen?top=上の文字&bottom=下の文字` で閲覧できる：
 
-<img src='https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe-2021/img/20210503205609.jpg' width='100%' />
+<img src='https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe-2021/img/20210503205609.jpg' width='80%' />
 
 ### パスのパラメータ
 
