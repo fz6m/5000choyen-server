@@ -16,7 +16,7 @@ Language: 简体中文 | [English](./README-en.md) | [日本語](./README-jp.md)
   yarn
 ```
 
-运行 server ：
+在项目根目录运行 server ：
 
 ```bash
   yarn server
