@@ -308,12 +308,19 @@ export class Drawer {
       return
     }
     // font raw size
-    const width = Math.max(this.actualWidth.top, this.actualWidth.bottom) + 10
+    const width = Math.max(
+      this.actualWidth.top + 10,
+      this.actualWidth.bottom - 20
+    )
     const height = this.height
     const data = this.ctx.getImageData(0, 0, width, height)
     // create save canvas
     const saveCanvas = createCanvas(width, height)
     const saveCtx = saveCanvas.getContext('2d')
+    // add white background
+    saveCtx.fillStyle = DEFAULT_BK_COLOR
+    saveCtx.fillRect(0, 0, width, height)
+    // put image
     saveCtx.putImageData(data, 0, 0)
     // image base64 to binary
     const base64 = saveCanvas.toDataURL(this.format as any)
